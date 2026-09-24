@@ -7,7 +7,7 @@ import { buildConfirmedMealReview } from './confirmed-meal.mjs';
 import { validateProfile, validateProfilePatch } from '../workbuddy/profile.mjs';
 
 const SERVER_NAME = 'chichulaide-history-local';
-const SERVER_VERSION = '0.1.1';
+const SERVER_VERSION = '0.2.0';
 const PROTOCOL_VERSION = '2025-03-26';
 const PROFILE_FIELDS = new Set(['gender', 'age', 'heightCm', 'weightKg', 'activityLevel', 'goal', 'targetWeightKg', 'healthRisks', 'lifeStage']);
 
