@@ -1,0 +1,37 @@
+{
+  "name": "eatwise-mcp",
+  "version": "0.2.0",
+  "description": "Local-first MCP server for Eatwise (外卖营养教练): consented on-device dietary profile and confirmed-meal history with deterministic Chinese meal nutrition reviews. Zero runtime dependencies; Node.js built-in SQLite.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "eatwise-mcp": "src/mcp/local-history-server.mjs"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "files": [
+    "README.md",
+    "PRIVACY.md",
+    "LICENSE",
+    "data/food-database.json",
+    "src/mcp",
+    "src/workbuddy"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harrylabsj/eatwise-mcp.git"
+  },
+  "keywords": [
+    "nutrition",
+    "diet",
+    "chinese-food",
+    "mcp",
+    "local-first",
+    "meal-review"
+  ],
+  "author": {
+    "name": "harrylabsj",
+    "url": "https://github.com/harrylabsj"
+  }
+}
